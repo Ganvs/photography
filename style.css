@@ -105,3 +105,21 @@ nav {
   justify-content: space-around;
   flex: 1 1 20rem;
 }
+
+/* Hero section */
+
+.hero {
+  min-height: 90vh;
+  width: 95%;
+  margin: 0 0 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hero-introduction {
+  flex: 1 1 40rem;
+}
+
+.hero-images {
+  flex: 1 1 40rem;
+}
