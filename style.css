@@ -19,12 +19,8 @@ html {
   --gray-text: #525252;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
-}
-
 h1 {
-  font-size: 2.6rem;
+  font-size: var(--header1);
 }
 
 li,
@@ -32,24 +28,33 @@ button,
 label,
 input,
 p {
-  font-size: 2rem;
+  font-size: var(--text);
 }
 
 h2 {
-  font-size: 4.8rem;
+  font-size: var(--header2);
 }
 
 h3 {
-  font-size: 3rem;
-  font-weight: normal;
+  font-size: var(--header3);
 }
 
 h4,
 h5 {
-  font-size: 2.8rem;
+  font-size: var(--header4);
+}
+
+ul {
+  list-style: none;
 }
 
 a {
-  color: white;
   text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
