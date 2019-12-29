@@ -34,8 +34,13 @@ html {
   --gray-text: #525252;
 }
 
+body {
+  font-family: "Ruhl", sans-serif;
+}
+
 h1 {
   font-size: var(--header1);
+  font-family: "Vibes", sans-serif;
 }
 
 li,
