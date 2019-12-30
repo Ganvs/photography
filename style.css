@@ -159,7 +159,7 @@ nav {
   z-index: -1;
   transform: translateY(10%) rotateY(-10deg) rotateX(-90deg);
   animation: plant-entrance 2s ease-in-out 0.5s forwards,
-    plant-shake 5s infinite ease-in-out alternate-reverse 5s;
+    plant-shake 4s infinite ease-in-out alternate-reverse 4s;
   transform-origin: bottom;
 }
 
