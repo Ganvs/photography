@@ -214,7 +214,7 @@ nav {
     background: var(--gray-text);
     margin: 0.5rem 0rem;
     display: block;
-    transition: background 2s ease;
+    transition: background 2s ease, transform 2s ease, opacity 1s ease;
   }
 
   .nav-links a {
@@ -254,5 +254,17 @@ nav {
 
   .menu-check:checked ~ .burger span {
     background: white;
+  }
+
+  .menu-check:checked ~ .burger span:nth-child(1) {
+    transform: rotateZ(45deg) translateY(300%);
+  }
+
+  .menu-check:checked ~ .burger span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-check:checked ~ .burger span:nth-child(3) {
+    transform: rotateZ(-45deg) translateY(-300%);
   }
 }
