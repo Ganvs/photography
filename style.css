@@ -195,3 +195,17 @@ nav {
     transform: rotateZ(0deg);
   }
 }
+
+/* mobile */
+
+@media screen and (max-width: 842px) {
+  .burger span {
+    padding: 0.2rem 2rem;
+    background: var(--gray-text);
+  }
+
+  .nav-links {
+    background: var(--background-color);
+    position: fixed;
+  }
+}
