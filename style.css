@@ -208,6 +208,10 @@ nav {
     width: 100%;
   }
 
+  .hero-introduction p {
+    padding: 5rem 3rem;
+  }
+
   /* Burger menu */
   .burger {
     display: block;
