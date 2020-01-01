@@ -204,6 +204,11 @@ nav {
 }
 
 @media screen and (max-width: 842px) {
+  .hero {
+    width: 100%;
+  }
+
+  /* Burger menu */
   .burger {
     display: block;
     position: relative;
@@ -214,7 +219,7 @@ nav {
     background: var(--gray-text);
     margin: 0.5rem 0rem;
     display: block;
-    transition: background 2s ease, transform 2s ease, opacity 1s ease;
+    transition: all 1s ease;
   }
 
   .nav-links a {
