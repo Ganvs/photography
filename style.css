@@ -218,12 +218,17 @@ nav {
   justify-content: space-around;
 }
 
+.about-text div {
+  padding: 3rem 8rem;
+}
+
 .about-image {
   flex: 1 1 40rem;
   position: relative;
 }
 
 .about-image h5 {
+  letter-spacing: 2rem;
   position: absolute;
   top: 20%;
   left: 50%;
