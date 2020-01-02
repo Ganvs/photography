@@ -198,12 +198,31 @@ nav {
   }
 }
 
-/* mobile */
-
 .burger,
 .menu-check {
   display: none;
 }
+
+/* About Section */
+
+.about {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  color: white;
+  background: var(--background-color);
+  flex: 2 1 40rem;
+  justify-content: space-around;
+}
+
+.about-image {
+  flex: 1 1 40rem;
+}
+
+/* mobile */
 
 @media screen and (max-width: 842px) {
   .hero {
