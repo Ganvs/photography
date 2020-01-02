@@ -222,6 +222,16 @@ nav {
   padding: 3rem 8rem;
 }
 
+.about-text h3 {
+  padding: 2rem 0rem;
+  font-family: "Ruhl Medium";
+}
+
+.about-text h2 {
+  padding: 4rem;
+  font-family: "Vibes";
+}
+
 .about-image {
   flex: 1 1 40rem;
   position: relative;
@@ -315,5 +325,10 @@ nav {
 
   .menu-check:checked ~ .burger span:nth-child(3) {
     transform: rotateZ(-45deg) translateY(-300%);
+  }
+
+  /* About section */
+  .about-text div {
+    padding: 3rem 3rem;
   }
 }
