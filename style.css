@@ -315,6 +315,14 @@ nav {
   padding: 1rem;
 }
 
+.form-wrapper button {
+  padding: 1rem 8rem;
+  background: var(--special-color);
+  color: white;
+  border: none;
+  width: 100%;
+}
+
 .contact img {
   flex: 1 1 40rem;
 }
