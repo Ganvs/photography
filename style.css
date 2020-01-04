@@ -297,6 +297,10 @@ nav {
   flex: 3 1 40rem;
 }
 
+.form-wrapper h2 {
+  margin-bottom: 5rem;
+}
+
 .form-wrapper span {
   font-size: var(--big);
   color: var(--special-color);
