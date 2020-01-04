@@ -433,7 +433,7 @@ footer h4 {
     padding: 3rem 3rem;
   }
 
-  /* Gallery */
+  /* Gallery section */
   .gallery img {
     grid-row: auto;
     grid-column: auto;
@@ -445,5 +445,21 @@ footer h4 {
 
   .gallery-head {
     display: none;
+  }
+
+  /* Contact section */
+  .contact img {
+    display: none;
+  }
+
+  /* Footer */
+  footer ul {
+    order: 1;
+  }
+
+  footer h4 {
+    order: 2;
+    text-align: center;
+    padding: 1rem;
   }
 }
