@@ -33,6 +33,7 @@ html {
   --background-color: #414141;
   --background-color-tranparent: rgba(65, 65, 65, 0.8);
   --gray-text: #525252;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -367,6 +368,7 @@ footer h4 {
   .burger {
     display: block;
     position: relative;
+    cursor: pointer;
   }
 
   .burger span {
